@@ -1,0 +1,37 @@
+#header{
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic ;
+    font-size: 30px;
+    text-align: center;
+    margin : 10px;
+    
+}
+.Bloc{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+#contact {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 2px solid black;
+}
+
+#contact a {
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#contact img {
+    width: 20px; 
+    height: 20px;
+}
