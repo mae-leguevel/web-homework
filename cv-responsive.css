@@ -1,0 +1,24 @@
+
+.container{
+    display: grid;
+    grid-template-columns:50% 50%;
+    
+    grid-template-areas:
+      "top-left top-right"
+      "bottom-left bottom-right";
+    grid-template-rows:50% 50%;
+}
+
+
+#Education{
+    grid-area: top-left ;
+}
+#Experiences{
+    grid-area: top-right ;
+}
+#Langues{
+    grid-area: bottom-left ;
+}
+#Competences{
+    grid-area: bottom-right ;
+}
